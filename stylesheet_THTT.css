@@ -1,0 +1,78 @@
+/* written by T.Hamafuku
+   2023.3.11
+*/
+
+body {
+  font-family: "Avenir Next";
+  background-color: #54B1E5;
+}
+
+.wrap {
+  padding: 32px 0 64px;
+}
+
+.content {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 16px;
+  background-color: #ffffff;
+}
+
+.heading-lv1 {
+  font-size: 32px;
+  font-style: italic;
+  text-align: center;
+}
+
+.heading-lv2 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.heading-lv3 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.heading-margin {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.text {
+  margin: 16px 0 0;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.profile-image {
+  margin: 16px 0 0;
+  text-align: center;
+}
+
+.profile-image img {
+  width: 150px;
+  height: auto;
+  border-radius: 60%; /* profile画を丸く */
+}
+
+.resizeimage img {
+  width: 100%; /* 画面の可変対応のおまじない */
+}
+
+li {
+  list-style: none; /* もぐもぐページの「・」はつけません */
+  padding-left: 60px; /* もぐもぐページのテキストを60px開ける */
+}
+
+ul.ul-list1 li:nth-of-type(1) {
+  color: #ff0000; /* もぐもぐページの１行目：赤色 */
+  font-size:20px; /* もぐもぐページの１行目：20px */
+  font-weight:bold;/* もぐもぐページの１行目：太字 */
+}
+
+ul.ul-list1 img {
+  border-radius: 35px; /* 画像の角をちょっとだけ角丸 */
+}
